@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <!-- <svg class="nav-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                </svg> -->
+                <span class="nav-title">Viktorija Ristovska</span>
+            </div>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active" data-page="home">Home</a>
+                <!-- <a href="#about" class="nav-link" data-page="about">About</a> -->
+                <a href="#skills" class="nav-link" data-page="skills">Skills</a>
+                <!-- <a href="#capabilities" class="nav-link" data-page="capabilities">Capabilities</a> -->
+                <a href="#projects" class="nav-link" data-page="projects">Projects</a>
+                <a href="#certificates" class="nav-link" data-page="certificates">Certificates</a>
+                <a href="#languages" class="nav-link" data-page="languages">Languages</a>
+                <a href="#contact" class="nav-link" data-page="contact">Contact</a>
+            </div>
+            
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Home Page -->
+        <section id="home" class="page active">
+            <div class="hero-section">
+                <div class="hero-content">
+                    <div class="hero-avatar">
+                        <svg class="sparkles-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M9.5 2L8 6l-4 1.5L8 9l1.5 4L11 9l4-1.5L11 6 9.5 2zM19 10l-1 2.5L15.5 14l2.5 1.5L19 18l1.5-2.5L23 14l-2.5-1.5L19 10z"/>
+                        </svg>
+                    </div>
+                    <h1 class="hero-title">
+                        Hello, I'm Viktorija Ristovska
+                    </h1>
+                    <p class="hero-subtitle">Creative Front-End Developer & Web Designer</p>
+                    <p class="hero-description">
+                        I craft beautiful digital experiences with a touch of elegance and a passion for perfection. 
+                        Welcome to my little corner of the internet where creativity meets functionality.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" data-page="projects">
+                            View My Work
+                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12,5 19,12 12,19"></polyline>
+                            </svg>
+                        </button>
+                        <a href="CV - Viktorija Ristovska (4).pdf" download>
+                            <button class="btn btn-secondary">
+                                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                    <polyline points="7,10 12,15 17,10"></polyline>
+                                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                                </svg>
+                                Download Resume
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <section>
+            <div class="container">
+                <div class="page-header">
+                    <h1 class="page-title">About Me</h1>
+                    <p class="page-subtitle">Passionate about creating beautiful digital experiences that make people smile</p>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Hi, I’m Viktorija — a web developer and designer with a fresh start in the field after completing a web development and design course. I work with HTML, CSS, JavaScript, React.js, WordPress, and Figma to create bold, professional, and fun digital experiences.</p>
+                        <p>I enjoy both design and development, especially when building responsive websites and web apps. I’m passionate about attention to detail, creativity, and continuous learning — currently diving deeper into JavaScript to strengthen my skills.</p>
+                        <p>I’m open to freelance work, full-time roles, and collaborations. Whether it’s a small business site or a creative web project, I love working with others to bring ideas to life.</p>
+                    </div>
+                    <div class="about-image">
+                        <div class="image-placeholder"><img src="picture.jpg" width="400px" height="600px" class="imgOfMe"></div>
+                        <div class="image-shadow"></div>
+                    </div>
+                </div>
+                
+                <div class="traits-grid">
+                    <div class="trait-card">
+                        <div class="trait-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                            </svg>
+                        </div>
+                        <h3 class="trait-title">Passionate</h3>
+                        <p class="trait-description">Every project is crafted with love and attention to detail</p>
+                    </div>
+                    <div class="trait-card">
+                        <div class="trait-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <circle cx="13.5" cy="6.5" r=".5"/>
+                                <circle cx="17.5" cy="10.5" r=".5"/>
+                                <circle cx="8.5" cy="7.5" r=".5"/>
+                                <circle cx="6.5" cy="11.5" r=".5"/>
+                                <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="trait-title">Creative</h3>
+                        <p class="trait-description">Always exploring new ways to express ideas visually</p>
+                    </div>
+                    <div class="trait-card">
+                        <div class="trait-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <polyline points="16,18 22,12 16,6"/>
+                                <polyline points="8,6 2,12 8,18"/>
+                            </svg>
+                        </div>
+                        <h3 class="trait-title">Technical</h3>
+                        <p class="trait-description">Bringing designs to life with clean, efficient code</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+            
+            <div class="featured-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">Featured Projects</h2>
+                        <p class="section-description">
+                            A curated selection of my favorite projects that showcase my passion for beautiful design
+                        </p>
+                    </div>
+                    <div class="featured-grid">
+                        <div class="featured-card">
+                            <div class="card-image"><img src="Opera Snapshot_2025-06-22_195841_127.0.0.1 2.png"></div>
+                            <div class="card-content">
+                                <h3 class="card-title">Hospital Website</h3>
+                                <p class="card-description">A beautiful example of modern design principles with elegant functionality.</p>
+                                <button class="card-link" data-page="projects">
+                                    Learn More
+                                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                                        <polyline points="12,5 19,12 12,19"></polyline>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="featured-card">
+                            <div class="card-image"><img src="Opera Snapshot_2025-06-26_102402_localhost.png" alt=""></div>
+                            <div class="card-content">
+                                <h3 class="card-title">Real Estate Website</h3>
+                                <p class="card-description">A beautiful example of modern design principles with elegant functionality.</p>
+                                <button class="card-link" data-page="projects">
+                                    Learn More
+                                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                                        <polyline points="12,5 19,12 12,19"></polyline>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="featured-card">
+                            <div class="card-image"><img src="Quote Generator - Google Chrome 6_22_2025 7_54_14 PM 1.png"></div>
+                            <div class="card-content">
+                                <h3 class="card-title">Quote Generator</h3>
+                                <p class="card-description">A beautiful example of modern design principles with elegant functionality.</p>
+                                <button class="card-link" data-page="projects">
+                                    Learn More
+                                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                                        <polyline points="12,5 19,12 12,19"></polyline>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Page -->
+    
+
+        <!-- Skills Page -->
+        <section id="skills" class="page">
+            <div class="container">
+                <div class="page-header">
+                    <h1 class="page-title">Skills & Expertise</h1>
+                    <p class="page-subtitle">A comprehensive overview of my technical skills and creative capabilities</p>
+                </div>
+                
+                <div class="skills-grid">
+                    <div class="skill-category1">
+                        <div class="category-header">
+                        <svg class="category-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="16,18 22,12 16,6"/>
+                            <polyline points="8,6 2,12 8,18"/>
+                        </svg>
+                        <h3 class="category-title">Frontend Development</h3>
+                        </div>
+                        <div class="skills-list">
+                        <div class="skill-item"><span class="skill-name">React</span></div>
+                        <div class="skill-item"><span class="skill-name">JavaScript</span></div>
+                        <div class="skill-item"><span class="skill-name">HTML/CSS</span></div>
+                        <div class="skill-item"><span class="skill-name">Bootstrap</span></div>
+                        <div class="skill-item"><span class="skill-name">Responsive Design</span></div>
+                        <div class="skill-item"><span class="skill-name">Mobile First Design</span></div>
+                        <div class="skill-item"><span class="skill-name">XAMPP</span></div>
+                        <div class="skill-item"><span class="skill-name">WordPress</span></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category2">
+                        <div class="category-header">
+                        <svg class="category-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="13.5" cy="6.5" r=".5"/>
+                            <circle cx="17.5" cy="10.5" r=".5"/>
+                            <circle cx="8.5" cy="7.5" r=".5"/>
+                            <circle cx="6.5" cy="11.5" r=".5"/>
+                            <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/>
+                        </svg>
+                        <h3 class="category-title">Web Design</h3>
+                        </div>
+                        <div class="skills-list">
+                        <div class="skill-item"><span class="skill-name">UI/UX Design</span></div>
+                        <div class="skill-item"><span class="skill-name">Figma</span></div>
+                        <div class="skill-item"><span class="skill-name">Adobe Illustrator & Photoshop</span></div>
+                        <div class="skill-item"><span class="skill-name">WordPress</span></div>
+                        <div class="skill-item"><span class="skill-name">Prototyping</span></div>
+                        <div class="skill-item"><span class="skill-name">Color Theory</span></div>
+                        <div class="skill-item"><span class="skill-name">Typography</span></div>
+                        <div class="skill-item"><span class="skill-name">Wireframing</span></div>
+                        <div class="skill-item"><span class="skill-name">Graphic Design</span></div>
+                        <div class="skill-item"><span class="skill-name">Responsive Layouts</span></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category3">
+                        <div class="category-header">
+                        <svg class="category-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <ellipse cx="12" cy="5" rx="9" ry="3"/>
+                            <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/>
+                            <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/>
+                        </svg>
+                        <h3 class="category-title">Additional Skills</h3>
+                        </div>
+                        <div class="skills-list">
+                        <div class="skill-item"><span class="skill-name">SEO</span></div>
+                        <div class="skill-item"><span class="skill-name">Digital Marketing</span></div>
+                        <div class="skill-item"><span class="skill-name">Cross-browser Testing</span></div>
+                        <div class="skill-item"><span class="skill-name">WooCommerce</span></div>
+                        <div class="skill-item"><span class="skill-name">Plugin Installation</span></div>
+                        </div>
+                    </div>
+                    </div>
+
+            </div>
+        </section>
+
+        <!-- Projects Page -->
+        <section id="projects" class="page">
+            <div class="container">
+                <div class="page-header">
+                    <h1 class="page-title">My Projects</h1>
+                    <p class="page-subtitle">A collection of carefully crafted digital experiences</p>
+                </div>
+                
+                <div class="projects-grid">
+                    <a href="projects/movie-streaming.html" class="project-card-link">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="Slide 16_9 - 5.png" alt="Movie Streaming Platform">
+                                <div class="project-overlay">
+                                    <div class="project-tags">
+                                        <span class="project-tag">Web Design</span>
+                                        <span class="project-tag status-live">Finished</span>
+                                    </div>
+                                    <div class="project-heart">
+                                        <svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">Movie Streaming Platform</h3>
+                                <p class="project-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis corrupti laboriosam temporibus?</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Figma</span>
+                                </div>
+                                <div class="project-links">
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <a href="projects/quote-generator.html" class="project-card-link">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="Quote Generator - Google Chrome 6_22_2025 7_54_14 PM 1.png" alt="Quote Generator">
+                                <div class="project-overlay">
+                                    <div class="project-tags">
+                                        <span class="project-tag">Website</span>
+                                        <span class="project-tag status-live">Finished</span>
+                                    </div>
+                                    <div class="project-heart">
+                                        <svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">Quote Generator</h3>
+                                <p class="project-description">Built a quote generator with HTML, CSS, and JavaScript.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">JavaScript</span>
+                                    <span class="tech-tag">HTML</span>
+                                    <span class="tech-tag">CSS</span>
+                                </div>
+                                <div class="project-links">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <a href="projects/meditation-app.html" class="project-card-link">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="Group 3 1.png" alt="Meditation App">
+                                <div class="project-overlay">
+                                    <div class="project-tags">
+                                        <span class="project-tag">UX/UI</span>
+                                        <span class="project-tag status-live">Finished</span>
+                                    </div>
+                                    <div class="project-heart">
+                                        <svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">Meditation App</h3>
+                                <p class="project-description">Designed a calm, user-friendly meditation app in Figma.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Figma</span>
+                                </div>
+                                <div class="project-links">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="projects/nft-marketplace.html" class="project-card-link">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="Slide 16_9 - 1 1.png" alt="NFT Marketplace">
+                                <div class="project-overlay">
+                                    <div class="project-tags">
+                                        <span class="project-tag">Design Principles</span>
+                                        <span class="project-tag status-live">Finished</span>
+                                    </div>
+                                    <div class="project-heart">
+                                        <svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">NFT Marketplace</h3>
+                                <p class="project-description">Created a clean NFT marketplace layout using design principles.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Figma</span>
+                                </div>
+                                <div class="project-links">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="projects/hospital.html" class="project-card-link">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="Opera Snapshot_2025-06-22_195841_127.0.0.1 2.png" alt="Hospital Website">
+                                <div class="project-overlay">
+                                    <div class="project-tags">
+                                        <span class="project-tag">Website</span>
+                                        <span class="project-tag status-dev">In Development</span>
+                                    </div>
+                                    <div class="project-heart">
+                                        <svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">Hospital Website</h3>
+                                <p class="project-description">Built a responsive hospital website with Bootstrap.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Bootstrap</span>
+                                </div>
+                                <div class="project-links">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="projects/festival-app.html" class="project-card-link">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="Group 2 1.png" alt="Festival App">
+                                <div class="project-overlay">
+                                    <div class="project-tags">
+                                        <span class="project-tag">App Design</span>
+                                        <span class="project-tag status-live">Finished</span>
+                                    </div>
+                                    <div class="project-heart">
+                                        <svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">Festival App</h3>
+                                <p class="project-description">Designed a colorful festival app concept in Illustrator.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Adobe Illustrator</span>
+                                </div>
+                                <div class="project-links">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="projects/cosmetics-webshop.html" class="project-card-link">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="Opera Snapshot_2025-06-22_202846_localhost 2.png" alt="Cosmetics Webshop">
+                                <div class="project-overlay">
+                                    <div class="project-tags">
+                                        <span class="project-tag">Web Design</span>
+                                        <span class="project-tag status-live">Finished</span>
+                                    </div>
+                                    <div class="project-heart">
+                                        <svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">Cosmetics Webshop</h3>
+                                <p class="project-description">Created a webshop with WordPress, Elementor, and WooCommerce.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">WordPress</span>
+                                </div>
+                                <div class="project-links">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="projects/automobile.html" class="project-card-link">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="luxcars.png" alt="Automobile Website">
+                                <div class="project-overlay">
+                                    <div class="project-tags">
+                                        <span class="project-tag">Website</span>
+                                        <span class="project-tag status-live">Finished</span>
+                                    </div>
+                                    <div class="project-heart">
+                                        <svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">Automobile Website</h3>
+                                <p class="project-description">Built a simple, responsive car website using HTML and CSS.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">HTML</span>
+                                    <span class="tech-tag">CSS</span>
+                                </div>
+                                <div class="project-links">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="projects/gaming-dashboard.html" class="project-card-link">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="proekt-Recovered (2) 3.png" alt="Gaming Dashboard">
+                                <div class="project-overlay">
+                                    <div class="project-tags">
+                                        <span class="project-tag">Web Design</span>
+                                        <span class="project-tag status-live">Finished</span>
+                                    </div>
+                                    <div class="project-heart">
+                                        <svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">Gaming Dashboard</h3>
+                                <p class="project-description">Designed a bold gaming dashboard in Photoshop for a module task.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Adobe Photoshop</span>
+                                </div>
+                                <div class="project-links">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="projects/pyxis.html" class="project-card-link">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="Opera Snapshot_2025-06-22_202846_localhost 2.png" alt="Pyxis Website">
+                                <div class="project-overlay">
+                                    <div class="project-tags">
+                                        <span class="project-tag">Website & Web Design</span>
+                                        <span class="project-tag status-live">Finished</span>
+                                    </div>
+                                    <div class="project-heart">
+                                        <svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">Pyxis</h3>
+                                <p class="project-description">Designed and built a real startup site with a mixed team.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Figma</span>
+                                    <span class="tech-tag">HTML, CSS, JavaScript</span>
+                                    <span class="tech-tag">WordPress</span>
+                                </div>
+                                <div class="project-links">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="projects/real-estate.html" class="project-card-link">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="Opera Snapshot_2025-06-26_102402_localhost.png" alt="Real Estate Website">
+                                <div class="project-overlay">
+                                    <div class="project-tags">
+                                        <span class="project-tag">Website</span>
+                                        <span class="project-tag status-dev">In Development</span>
+                                    </div>
+                                    <div class="project-heart">
+                                        <svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">Real Estate Website</h3>
+                                <p class="project-description">Developed a responsive real estate site using React.js.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Figma</span>
+                                    <span class="tech-tag">HTML & CSS</span>
+                                    <span class="tech-tag">React.js & JavaScript</span>
+                                </div>
+                                <div class="project-links">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="" class="project-card-link">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="Opera Snapshot_2025-06-26_102402_localhost.png" alt="Real Estate Website">
+                                <div class="project-overlay">
+                                    <div class="project-tags">
+                                        <span class="project-tag">Website</span>
+                                        <span class="project-tag status-dev">In Development</span>
+                                    </div>
+                                    <div class="project-heart">
+                                        <svg viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">Real Estate Website</h3>
+                                <p class="project-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit a unde debitis quos assumenda voluptate aut doloribus exercitationem magni vero.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Figma</span>
+                                    <span class="tech-tag">HTML & CSS</span>
+                                    <span class="tech-tag">React.js & JavaScript</span>
+                                </div>
+                                <div class="project-links">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                </div>
+                <div class="cta-section">
+                    <p class="cta-text">Interested in collaborating or have a project in mind?</p>
+                    <button class="btn btn-primary" data-page="contact">
+                        Let's Work Together
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Capabilities Page
+        <section id="capabilities" class="page">
+            
+        </section> -->
+
+        <!-- Languages Page -->
+        <section id="languages" class="page">
+            <div class="container">
+                <div class="page-header">
+                    <h1 class="page-title">Languages & Programming</h1>
+                    <p class="page-subtitle">Multilingual communication abilities and technical programming expertise</p>
+                </div>
+                
+                <div class="languages-section">
+                    <div class="section-header">
+                        <svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <line x1="2" y1="12" x2="22" y2="12"/>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                        </svg>
+                        <h2 class="section-title">Spoken Languages</h2>
+                    </div>
+                    
+                    <div class="language-grid">
+                        <div class="language-card">
+                            <div class="language-header">
+                                <h3 class="language-name">English</h3>
+                                <span class="language-level fluent">Fluent</span>
+                            </div>
+                            <!-- <div class="language-stars">
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                            </div> -->
+                            <div class="language-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 100%"></div>
+                                </div>
+                                <span class="progress-text">100%</span>
+                            </div>
+                            <p class="language-description">Fluent in both business and casual conversations.</p>
+                        </div>
+                        
+                        <div class="language-card">
+                            <div class="language-header">
+                                <h3 class="language-name">German</h3>
+                                <span class="language-level fluent">Fluent</span>
+                            </div>
+                            <!-- <div class="language-stars">
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                            </div> -->
+                            <div class="language-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 100%"></div>
+                                </div>
+                                <span class="progress-text">100%</span>
+                            </div>
+                            <p class="language-description">Fluent in both business and casual conversations, lived in Germany for 8 years</p>
+                        </div>
+                        
+                        <div class="language-card">
+                            <div class="language-header">
+                                <h3 class="language-name">Macedonian</h3>
+                                <span class="language-level native">Native</span>
+                            </div>
+                            <!-- <div class="language-stars">
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                            </div> -->
+                            <div class="language-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 100%"></div>
+                                </div>
+                                <span class="progress-text">100%</span>
+                            </div>
+                            <p class="language-description">Native speaker with excellent written and verbal communication skills</p>
+                        </div>
+                        
+                        <div class="language-card">
+                            <div class="language-header">
+                                <h3 class="language-name">Serbian</h3>
+                                <span class="language-level intermediate">Intermediate</span>
+                            </div>
+                            <!-- <div class="language-stars">
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div> -->
+                            <div class="language-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 70%"></div>
+                                </div>
+                                <span class="progress-text">70%</span>
+                            </div>
+                            <p class="language-description">I can speak Serbian well enough to have conversations, and understand most topics.</p>
+                        </div>
+
+                        <div class="language-card">
+                            <div class="language-header">
+                                <h3 class="language-name">Arabic</h3>
+                                <span class="language-level elementary">Elementary</span>
+                            </div>
+                            <!-- <div class="language-stars">
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div> -->
+                            <div class="language-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 30%"></div>
+                                </div>
+                                <span class="progress-text">30%</span>
+                            </div>
+                            <p class="language-description">I’m able to understand and use basic sentences. Currently taking courses to improve.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="programming-section">
+                    <div class="section-header">
+                        <svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="16,18 22,12 16,6"/>
+                            <polyline points="8,6 2,12 8,18"/>
+                        </svg>
+                        <h2 class="section-title">Programming Languages</h2>
+                    </div>
+                    
+                    <div class="language-grid">
+                        <div class="language-card">
+                            <div class="language-header">
+                                <h3 class="language-name">JavaScript</h3>
+                                <span class="language-level intermediate">Intermediate</span>
+                                <!-- <span class="experience-badge">5+ months</span> -->
+                            </div>
+                            <!-- <div class="language-stars">
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div> -->
+                            <div class="language-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 75%"></div>
+                                </div>
+                                <span class="progress-text">75%</span>
+                            </div>
+                            <div class="frameworks">
+                                <!-- <span class="framework-tag">React</span> -->
+                            </div>
+                        </div>
+                        
+                        <div class="language-card">
+                            <div class="language-header">
+                                <h3 class="language-name">CSS/SCSS</h3>
+                                <span class="language-level advanced">Advanced</span>
+                                <!-- <span class="experience-badge">8+ months</span> -->
+                            </div>
+                            <!-- <div class="language-stars">
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star">★</span>
+                            </div> -->
+                            <div class="language-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 98%"></div>
+                                </div>
+                                <span class="progress-text">98%</span>
+                            </div>
+                            <div class="frameworks">
+                                <!-- <span class="framework-tag">Bootstrap</span> -->
+                                <!-- <span class="framework-tag">Styled Components</span> -->
+                            </div>
+                        </div>
+
+                        <div class="language-card">
+                            <div class="language-header">
+                                <h3 class="language-name">React.js</h3>
+                                <span class="language-level advanced">Advanced</span>
+                                <!-- <span class="experience-badge">8+ months</span> -->
+                            </div>
+                            <!-- <div class="language-stars">
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star">★</span>
+                            </div> -->
+                            <div class="language-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 98%"></div>
+                                </div>
+                                <span class="progress-text">80%</span>
+                            </div>
+                            <div class="frameworks">
+                                <!-- <span class="framework-tag">Bootstrap</span> -->
+                                <!-- <span class="framework-tag">Styled Components</span> -->
+                            </div>
+                        </div>
+
+                        <div class="language-card">
+                            <div class="language-header">
+                                <h3 class="language-name">Bootstrap</h3>
+                                <span class="language-level advanced">Advanced</span>
+                                <!-- <span class="experience-badge">8+ months</span> -->
+                            </div>
+                            <!-- <div class="language-stars">
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star">★</span>
+                            </div> -->
+                            <div class="language-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 98%"></div>
+                                </div>
+                                <span class="progress-text">98%</span>
+                            </div>
+                            <div class="frameworks">
+                                <!-- <span class="framework-tag">Bootstrap</span> -->
+                                <!-- <span class="framework-tag">Styled Components</span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificates Page -->
+        <section id="certificates" class="page">
+                    
+        </section>
+
+        <!-- Contact Page -->
+        <!-- <section id="contact" class="page">
+            <div class="container">
+                <div class="page-header">
+                    <h1 class="page-title">Let's Create Something Beautiful</h1>
+                    <p class="page-subtitle">Ready to bring your vision to life? I'd love to hear about your project</p>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <h3 class="contact-card-title">Get in Touch</h3>
+                            <div class="contact-methods">
+                                <div class="contact-method">
+                                    <div class="contact-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                            <polyline points="22,6 12,13 2,6"/>
+                                        </svg>
+                                    </div>
+                                    <div class="contact-details">
+                                        <h4 class="contact-label">Email</h4>
+                                        <p class="contact-value-mail"><a href="mailto:vikiristovska16@gmail.com">vikiristovska16@gmail.com</a></p>
+                                    </div>
+                                </div>
+                                
+                                <! -- <div class="contact-method">
+                                    <div class="contact-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="contact-details">
+                                        <h4 class="contact-label">Phone</h4>
+                                        <p class="contact-value">+49 1234567</p>
+                                    </div>
+                                </div> -->
+                                
+                                <!-- <div class="contact-method">
+                                    <div class="contact-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                            <circle cx="12" cy="10" r="3"/>
+                                        </svg>
+                                    </div>
+                                    <div class="contact-details">
+                                        <h4 class="contact-label">Location</h4>
+                                        <p class="contact-value">Pforzheim, Germany</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="response-card">
+                            <h4 class="response-title">Response Time</h4>
+                            <p class="response-description">I typically respond to messages within 24 hours during weekdays. For urgent matters, please mention it in your subject line, and I'll prioritize your message.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-container">
+                        <form action="https://api.web3forms.com/submit" method="POST" class="contact-form" id="contactForm">
+
+                            <input type="hidden" name="access_key" value="477e3a03-f1a5-48a0-a1e7-ce66f7c50da6">
+                            <div class="form-row">
+                                <div class="form-group1">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" id="name" name="name" class="form-input" placeholder="Your name" required>
+                                </div>
+                                <div class="form-group2">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" id="email" name="email" class="form-input" placeholder="your@email.com" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group3">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" id="subject" name="subject" class="form-input" placeholder="What's this about?" required>
+                            </div>
+                            
+                            <div class="form-group4">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea id="message" name="message" class="form-textarea" rows="6" placeholder="Tell me about your project or just say hello!" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="form-submit" id="submitBtn">
+                                <span class="submit-text">Send Message</span>
+                                <svg class="submit-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="22" y1="2" x2="11" y2="13"/>
+                                    <polygon points="22,2 15,22 11,13 2,9 22,2"/>
+                                </svg>
+                                <div class="loading-spinner" style="display: none;">
+                                    <div class="spinner"></div>
+                                </div>
+                            </button>
+                        </form>
+                        
+                        < !-- <div class="form-footer">
+                            <div class="personal-touch">
+                                <svg class="heart-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                                </svg>
+                                I read every message personally
+                            </div>
+                        </div> -- >
+                    </div>
+                </div>
+            </div>
+        </section> -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <!-- <svg class="footer-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                    </svg> -->
+                    <span class="footer-title">Viktorija Ristovska</span>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="https://github.com/viktorijaristovska" class="social-link">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/viktorija-ristovska-4a4807339/" class="social-link">
+                        <svg version="1.1" height="4px" stroke="currentColor" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+                        <g>
+                            <path d="M28.109,34.4c-0.35,0-0.635-0.284-0.635-0.634V24.13c0-3.484-1.788-3.484-2.462-3.484c-1.878,0-2.829,1.172-2.829,3.484
+                                v9.637c0,0.35-0.284,0.634-0.634,0.634H16.1c-0.35,0-0.634-0.284-0.634-0.634V15.41c0-0.35,0.284-0.634,0.634-0.634h5.45
+                                c0.35,0,0.634,0.284,0.634,0.634v0.684l0.328-0.271c1.29-1.067,2.829-1.608,4.574-1.608c2.157,0,3.973,0.689,5.251,1.994
+                                c1.35,1.378,2.063,3.43,2.063,5.933v11.625c0,0.35-0.285,0.634-0.635,0.634H28.109z M25.013,19.376
+                                c1.394,0,3.732,0.618,3.732,4.754v9.002h4.385v-10.99c0-4.231-2.203-6.657-6.044-6.657c-3.43,0-4.916,2.59-4.978,2.7
+                                c-0.112,0.203-0.324,0.329-0.555,0.329c-0.052,0-0.105-0.008-0.159-0.021c-0.282-0.071-0.479-0.322-0.479-0.61v-1.837h-4.18v17.087
+                                h4.18V24.13C20.915,21.153,22.447,19.376,25.013,19.376L25.013,19.376z"></path>
+                            <path d="M6.78,34.4c-0.35,0-0.635-0.284-0.635-0.634V15.41c0-0.35,0.285-0.634,0.635-0.634h5.685c0.35,0,0.634,0.284,0.634,0.634
+                                v18.356c0,0.35-0.284,0.634-0.634,0.634H6.78z M7.415,33.132h4.415V16.045H7.415V33.132z"></path>
+                            <path d="M9.597,13.639c-2.204,0-3.997-1.803-3.997-4.019C5.6,7.403,7.393,5.6,9.597,5.6c2.201,0,3.993,1.804,3.993,4.021
+                                C13.59,11.836,11.798,13.639,9.597,13.639L9.597,13.639z M9.597,6.866c-1.504,0-2.727,1.235-2.727,2.754
+                                c0,1.518,1.223,2.751,2.727,2.751c1.503,0,2.725-1.233,2.725-2.751C12.321,8.102,11.1,6.866,9.597,6.866L9.597,6.866z"></path>
+                        </g>
+                        </svg>
+                    </a>
+                    <a href="mailto:vikiristovska16@gmail.com" class="social-link">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                    </a>
+                </div>
+                
+                <p class="footer-text">
+                    © 2025. All rights reserved
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
